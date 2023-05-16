@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  @apply min-h-full;
+}
+body {
+  @apply min-h-full;
+}
+#root {
+  @apply min-h-full;
+  @apply font-mono;
+}
