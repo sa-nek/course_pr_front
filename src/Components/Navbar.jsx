@@ -32,7 +32,7 @@ const Navbar = ({ mainDiv }) => {
         />
         <div className="flex justify-end items-center gap-2">
           <img
-            src={`http://localhost:3001/assets/${
+            src={`https://course-pr-api.onrender.com/assets/${
               user?.picturePath || "default.png"
             }`}
             className="h-14 w-14 object-cover rounded-full hidden sm:block"

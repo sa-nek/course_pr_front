@@ -30,7 +30,7 @@ const Friends = () => {
           >
             <img
               className="rounded-full h-14 object-cover w-14"
-              src={`http://localhost:3001/assets/${
+              src={`https://course-pr-api.onrender.com/assets/${
                 friend.picturePath || "default.png"
               }`}
             />

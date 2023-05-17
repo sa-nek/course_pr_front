@@ -54,7 +54,7 @@ const Post = ({ post, hideButton = true, userId, getPosts }) => {
         <div className="flex gap-4 items-center">
           <img
             className="rounded-full h-16 w-16 sm:h-28 object-cover sm:w-28"
-            src={`http://localhost:3001/assets/${
+            src={`https://course-pr-api.onrender.com/assets/${
               post?.userPicturePath || "default.png"
             }`}
           />
@@ -74,12 +74,12 @@ const Post = ({ post, hideButton = true, userId, getPosts }) => {
           <img
             onClick={() => {
               window.open(
-                `http://localhost:3001/assets/${post?.picturePath}`,
+                `https://course-pr-api.onrender.com/assets/${post?.picturePath}`,
                 "_blank"
               );
             }}
             className="rounded-md object-contain cursor-pointer"
-            src={`http://localhost:3001/assets/${post?.picturePath}`}
+            src={`https://course-pr-api.onrender.com/assets/${post?.picturePath}`}
           />
         )}
         <p className="w-full text-center break-words">{post.description}</p>

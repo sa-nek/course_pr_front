@@ -55,7 +55,7 @@ const Profile = ({ isMe }) => {
       </p>
       <img
         className="rounded-full h-28 object-cover w-28"
-        src={`http://localhost:3001/assets/${
+        src={`https://course-pr-api.onrender.com/assets/${
           currentUser?.picturePath || "default.png"
         }`}
       />
